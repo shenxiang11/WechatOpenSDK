@@ -6,6 +6,11 @@
 //  Copyright (c) 2012年 Tencent. All rights reserved.
 //
 
+// NoPay version - disable payment classes
+#ifndef BUILD_WITHOUT_PAY
+#define BUILD_WITHOUT_PAY 1
+#endif
+
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
