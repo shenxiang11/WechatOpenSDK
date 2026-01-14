@@ -9,6 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "WechatOpenSDK",
+            type: .static,
             targets: ["WechatOpenSDK"]
         ),
     ],
